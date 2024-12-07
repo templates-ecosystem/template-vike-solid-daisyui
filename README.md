@@ -14,7 +14,7 @@
 
 ### ⬇️ Clone
 ```sh
-git clone https://github.com/rtritto/template-vike-solid-daisyui.git
+git clone https://github.com/templates-ecosystem/template-vike-solid-daisyui.git
 ```
 
 ### ⚙️ Install
