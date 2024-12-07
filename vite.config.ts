@@ -6,7 +6,8 @@ import autoprefixer from 'autoprefixer'
 import path from 'node:path'
 
 export default {
-  cacheDir: '.vite',
+  root: 'src',
+  cacheDir: path.resolve(import.meta.dirname, '.vite'),
   plugins: [
     vike(),
     vikeSolid()
@@ -19,7 +20,7 @@ export default {
   },
   build: {
     target: 'esnext',
-    outDir: '.vite/dist'
+    outDir: path.resolve(import.meta.dirname, '.vite/dist')
   },
   css: {
     postcss: {
