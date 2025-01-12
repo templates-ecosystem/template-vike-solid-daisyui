@@ -5,29 +5,30 @@
   "type": "module",
   "packageManager": "yarn@4.6.0",
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "serve": "vite preview",
+    "dev": "vike dev",
+    "build": "vike build",
+    "prod": "NODE_ENV=production node dist/server/index.mjs",
+    "serve": "yarn build && yarn prod",
     "lint": "eslint src/**/*.{ts,tsx} *.ts",
     "od": "yarn outdated"
   },
   "dependencies": {
-    "solid-js": "^1.9.3"
+    "solid-js": "^1.9.4"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
     "@yarnpkg/sdks": "^3.2.0",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.23",
-    "eslint": "^9.17.0",
+    "eslint": "^9.18.0",
     "eslint-plugin-solid": "^0.14.5",
     "eslint-plugin-tailwindcss": "^3.17.5",
     "eslint-plugin-unicorn": "^56.0.1",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
-    "typescript": "5.7.2",
-    "typescript-eslint": "^8.19.0",
-    "vike": "^0.4.211",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.19.1",
+    "vike": "^0.4.214",
     "vike-solid": "^0.7.8",
     "vite": "^6.0.7"
   },
