@@ -6,13 +6,15 @@
   "editor.tabSize": 2,
   "eslint.nodePath": ".yarn/sdks",
   "files.eol": "\n",
+  "files.insertFinalNewline": true,
   "git.mergeEditor": false,
   "search.exclude": {
     "**/.github": true,
     "**/.pnp.*": true,
     "**/.vite": true,
     "**/.vscode": true,
-    "**/.yarn": true
+    "**/.yarn": true,
+    "**/dist": true
   },
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "typescript.tsdk": ".yarn/sdks/typescript/lib",
