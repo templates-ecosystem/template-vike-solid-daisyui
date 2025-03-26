@@ -8,5 +8,6 @@ export default {
   bodyAttributes: {
     class: 'dark'
   },
-  extends: vikeSolid
+  prerender: true,
+  extends: [vikeSolid]
 } satisfies Config
