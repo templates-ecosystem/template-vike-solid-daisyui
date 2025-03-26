@@ -31,6 +31,5 @@ body.page-is-transitioning #page-content {
 
 /*#endregion*/
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui";

@@ -1,6 +1,5 @@
 import path from 'node:path'
-import autoprefixer from 'autoprefixer'
-import tailwindcss from 'tailwindcss'
+import tailwindcss from '@tailwindcss/vite'
 import { plugin as vike } from 'vike/plugin'
 import vikeSolid from 'vike-solid/vite'
 import type { UserConfig } from 'vite'
@@ -9,6 +8,7 @@ export default {
   root: 'src',
   cacheDir: '../.vite',
   plugins: [
+    tailwindcss(),
     vike(),
     vikeSolid()
   ],
@@ -22,14 +22,6 @@ export default {
     target: 'esnext',
     outDir: '../dist',
     minify: true
-  },
-  css: {
-    postcss: {
-      plugins: [
-        tailwindcss,
-        autoprefixer
-      ]
-    }
   },
   resolve: {
     alias: {
