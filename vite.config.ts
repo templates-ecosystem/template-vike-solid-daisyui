@@ -20,7 +20,8 @@ export default {
   },
   build: {
     target: 'esnext',
-    outDir: '../dist'
+    outDir: '../dist',
+    minify: true
   },
   css: {
     postcss: {
