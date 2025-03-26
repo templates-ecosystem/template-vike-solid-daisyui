@@ -6,7 +6,7 @@ import pluginSolid from 'eslint-plugin-solid/configs/typescript'
 
 export default pluginTypescript.config(
   ...pluginTypescript.configs.recommended,
-  pluginUnicorn.configs['flat/recommended'],
+  pluginUnicorn.configs.recommended,
   pluginSolid,
   // ...pluginTailwindcss.configs['flat/recommended'],
   {
