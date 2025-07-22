@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
-  "packageManager": "yarn@4.7.0",
+  "packageManager": "yarn@4.9.2",
   "scripts": {
     "dev": "vike dev",
     "build": "vike build",
@@ -12,22 +12,22 @@
     "od": "yarn outdated"
   },
   "dependencies": {
-    "solid-js": "^1.9.5"
+    "solid-js": "^1.9.7"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.0.17",
-    "@types/node": "^22.13.13",
-    "@yarnpkg/sdks": "^3.2.1",
-    "daisyui": "^5.0.9",
-    "eslint": "^9.23.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/node": "^24.1.0",
+    "@yarnpkg/sdks": "^3.2.2",
+    "daisyui": "^5.0.46",
+    "eslint": "^9.31.0",
     "eslint-plugin-solid": "^0.14.5",
-    "eslint-plugin-unicorn": "^58.0.0",
-    "tailwindcss": "^4.0.17",
-    "typescript": "^5.8.2",
-    "typescript-eslint": "^8.28.0",
-    "vike": "^0.4.227",
-    "vike-solid": "^0.7.9",
-    "vite": "^6.2.3"
+    "eslint-plugin-unicorn": "^60.0.0",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0",
+    "vike": "^0.4.236",
+    "vike-solid": "^0.7.11",
+    "vite": "^6.3.5"
   },
   "engines": {
     "node": ">=20"
