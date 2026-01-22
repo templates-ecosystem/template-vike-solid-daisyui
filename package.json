@@ -24,8 +24,8 @@
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.53.1",
-    "vike": "^0.4.247",
-    "vike-solid": "^0.7.13",
+    "vike": "^0.4.252",
+    "vike-solid": "^0.7.19",
     "vite": "^7.3.1"
   },
   "engines": {
