@@ -11,23 +11,23 @@
     "od": "yarn outdated"
   },
   "dependencies": {
-    "solid-js": "^1.9.11"
+    "solid-js": "^1.9.12"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.2.1",
-    "@types/node": "^25.5.0",
+    "@tailwindcss/vite": "^4.2.4",
+    "@types/node": "^25.6.0",
     "@yarnpkg/sdks": "^3.2.3",
     "daisyui": "^5.5.19",
     "eslint": "^9.39.2",
     "eslint-plugin-solid": "^0.14.5",
-    "eslint-plugin-unicorn": "^62.0.0",
-    "tailwindcss": "^4.2.1",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.57.1",
-    "vike": "^0.4.255",
-    "vike-solid": "^0.8.1",
-    "vite": "^7.3.1",
-    "vite-plugin-solid": "^2.11.11"
+    "eslint-plugin-unicorn": "^64.0.0",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.0",
+    "vike": "^0.4.258",
+    "vike-solid": "^0.8.2",
+    "vite": "^8.0.10",
+    "vite-plugin-solid": "^2.11.12"
   },
   "engines": {
     "node": ">=20"
